@@ -1,0 +1,14 @@
+{
+  "name": "speedrun-sdk-js",
+  "version": "0.0.1",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
