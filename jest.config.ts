@@ -3,7 +3,14 @@
  * https://jestjs.io/docs/configuration
  */
 
-export default {
+import type { Config } from '@jest/types';
+
+const config: Config.InitialOptions = {
   clearMocks: true,
   coverageProvider: "v8",
+  testMatch: [
+    "**/__tests__/**/*.+(ts|js)",
+  ],
 };
+
+export default config;
