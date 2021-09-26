@@ -1,20 +1,20 @@
 {
   "compilerOptions": {
     /* Projects */
-    "target": "es6", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "es6",
     /* Modules */
-    "module": "esnext", /* Specify what module code is generated. */
-    "rootDir": "./src", /* Specify the root folder within your source files. */
+    "module": "esnext",
+    "rootDir": "./src",
     /* Emit */
-    "declaration": true, /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
-    "outDir": "./build", /* Specify an output folder for all emitted files. */
+    "declaration": true,
+    "outDir": "./build",
     /* Interop Constraints */
-    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
-    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     /* Type Checking */
-    "strict": true, /* Enable all strict type-checking options. */
+    "strict": true,
     /* Completeness */
-    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true
   },
   "include": [
     "src"
